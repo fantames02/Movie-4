@@ -1,0 +1,43 @@
+.movie {
+  display: flex;
+}
+
+.movie__left-col {
+  flex: 1;
+}
+
+.movie__right-col {
+  flex: 1;
+}
+
+.movie__poster {
+}
+
+.movie__title {
+}
+
+.movie__rating {
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.movie__tags {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie__tags > li {
+  background: #ccc;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.movie__info {
+}
+
+.flex {
+  display: flex;
+}
